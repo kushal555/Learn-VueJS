@@ -1,0 +1,39 @@
+Carbon Libray 
+Resource =>  JSON response 
+Eloquent => Manipullating database queries.
+User::find();
+
+SELECT * FROM user where ID = 1
+
+Browser => 
+Mobile Browser => 
+
+VueJS Javascritp Framework
+
+
+
+-----------------------------------------------
+Using of the VueJS 
+    
+    -   Partial Part of the HTML 
+    -   Entire application (Single Page Application Approach)
+
+Create VueJS App
+
+We Delcare the Data Property 
+
+We also use the Data Property inside the HTML 
+
+
+ ---- 
+
+ Define the Methods 
+ Call the methods in HTML code 
+ Access the Data property inside the methods
+return the Data property 
+
+
+-------------------------------
+How we can print the HTML in vueJS -     v-html directive
+How we can bind the attribute value in VueJS -  v-bind:attribute name 
+
