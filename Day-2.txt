@@ -1,0 +1,31 @@
+1. Inlcude VUeJS CDN and Create Vue App
+2. {{}}
+3. Javascript Expression
+4. Attribute binding ( <img v-bind:src="''") 
+5. v-if, v-show, v-else, 
+6. Event v-on:click, v-on:keypress, v-on:input=""
+7. Methods propery the vueJS
+
+----------------------------------------
+8.  v-once 
+9. Two way binding 
+10.  Computed Property
+11. Watch 
+12.  Methods, watch and computed
+13.  Class and Style binding 
+14. Component Introduction 
+15. VueCLI 
+
+-------------------------------------------
+Method:- 
+    Use with event and Data binding 
+    Method will excute for every "re-render" cycle of compoent 
+
+Computed:- 
+    use with Data binding 
+    Only re-evaluted if one of the their used value changed
+
+Watch:- 
+    Not used directly in template, we have to create a data property
+    Allow you to run any code in reaction to some changed 
+    (e.g send Http request etc.)

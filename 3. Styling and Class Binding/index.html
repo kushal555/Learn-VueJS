@@ -14,19 +14,12 @@
   </head>
   <body>
     <header>
-      <h1>Vue Events</h1>
+      <h1>Vue Dynamic Styling</h1>
     </header>
-    <section id="events">
-      <h2>Events in Action</h2>
-      <button @click="addCounter(5)">Add + 5</button>
-      <button @click="reduceCounter(2)">Reduce - 2</button>
-      <p v-once>Starting Result: {{ counter }}</p>
-      <p>Result: {{ counter }}</p>
-      <input type="text" v-model="name"  />
-      <input type="text" v-model="lastName" />
-      <p> {{ fullName }}</p>
-      <button @click="resetInput()">Reset Input</button>
-      <p v-else>Enter Your name in textbox</p>
+    <section id="styling">
+      <div @click="boxSelected('A')" :class="['demo',{ active:boxASelected }]"></div>
+      <div @click="boxSelected('B')" class="demo" :class="{ active:boxBSelected }"></div>
+      <div @click="boxSelected('C')" class="demo" :class="{active:boxCSelected }"></div>
     </section>
   </body>
 </html>
