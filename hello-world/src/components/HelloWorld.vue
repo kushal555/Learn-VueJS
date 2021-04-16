@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
-   
+    {{ msg }}
   </div>
+  <button></button>
 </template>
 
 <script>

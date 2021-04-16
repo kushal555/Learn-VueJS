@@ -1,0 +1,25 @@
+1. Convert the VueCDN project to VueCLI
+2. Create Component in the project
+3. Style the application
+4. Pass the dynamic data to Component
+5. Pass the dynamic value to props ( Parent to Child )
+6. Change the value by using the custom event ( Child to Parent )
+
+----------------------------------------------------------------
+
+1. Create a form 
+    -   3 Inputs
+    -   Name, Phone, Email
+    -   Button (Submit)
+    -   Click of the Submit (Custom event to App component)
+    -   You will receive the event callback 
+    -   Also receive the argument/ form inputs 
+    -   Push this new Friend data to the existing friends array
+
+- NewFriend.vue
+    <form @submit.prevent="handleSubmit"></form>
+    methods: {
+        handleSubmit() {
+            this.$emit('add-new-friend',this.name,this.phoneNumber, this.email);
+        }
+    }

@@ -1,0 +1,19 @@
+Today Agenda
+--------------
+
+1.  Testing 
+    -   Unit Testing -jest      -- mocha testcafe
+    -   Code Coverage
+
+2.  Deloy
+    -   Optimize the Code
+    -   Deployement 
+
+
+    Benefits of Testing 
+    ------------------
+        Check component work Correctly => 
+        Provide Documentation -> 
+        Easier debugging -> 
+        Unit test leads a less bugs in your appplication 
+        

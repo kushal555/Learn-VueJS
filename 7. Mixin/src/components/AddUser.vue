@@ -1,0 +1,20 @@
+<template>
+  <user-alert v-if="alertIsVisible" title="Add a User?" @close="hideAlert">
+    <p>Do you want to continue with adding a user?</p>
+  </user-alert>
+  <section>
+    <h2>Add a User</h2>
+    <button @click="showAlert">Add User</button>
+  </section>
+</template>
+
+<script>
+import AlertMixin from '../mixin/alert.js';
+import UserAlert from '../components/UserAlert.vue';
+export default {
+  mixins: [AlertMixin],
+  components: {
+    UserAlert,
+  },
+}
+</script>
